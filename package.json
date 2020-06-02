@@ -18,5 +18,9 @@
   "homepage": "https://github.com/kjgalvan/kjgalvan.github.io#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
