@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ELJBPCT0EE"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BP1W72ZP1T"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
+
+    dataLayer.push({products: {
+      products: [{
+        sku: '123',
+        name: 'Thick as a Brick'
+      },{
+        sku: '234',
+      name: 'Aqualung'
+      }]
+    }});
+
+
+    dataLayer.push({
+      products: [{
+        sku: '345',
+      name: 'Close to the Edge'
+      }]
+    });
+
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-ELJBPCT0EE');
+    gtag('config', 'G-BP1W72ZP1T');
   </script>
 
   <!-- Google Tag Manager -->
